@@ -1,0 +1,107 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="xxJ1THHl383wUzNlQKOI">
+    <mxGraphModel dx="1030" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-1" target="I4Y9UBhTB3UJbaNsFd0N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-1" value="Data.csv" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-2" target="I4Y9UBhTB3UJbaNsFd0N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-2" value="Kalam Climate Data.xlsx" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-3" target="I4Y9UBhTB3UJbaNsFd0N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-3" value="SampleSubmission.csv" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-4" value="duckdb CTAS extraction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-5" value="duckdb CTAS extraction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-6" value="duckdb CTAS extraction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.206;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="I4Y9UBhTB3UJbaNsFd0N-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="294" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-7" target="I4Y9UBhTB3UJbaNsFd0N-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-7" target="I4Y9UBhTB3UJbaNsFd0N-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-7" target="I4Y9UBhTB3UJbaNsFd0N-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-7" value="kalam_hydropower.db" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="295" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-4" target="I4Y9UBhTB3UJbaNsFd0N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-5" target="I4Y9UBhTB3UJbaNsFd0N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.676;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-6" target="I4Y9UBhTB3UJbaNsFd0N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-14" value="Aggregation Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.736;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-14" target="I4Y9UBhTB3UJbaNsFd0N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-18" target="I4Y9UBhTB3UJbaNsFd0N-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-18" value="Daily Hydropower Data Selection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-19" target="I4Y9UBhTB3UJbaNsFd0N-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-19" value="Daily Climate Data Selection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-22" target="I4Y9UBhTB3UJbaNsFd0N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-22" value="Time series prep for Darts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-23" target="I4Y9UBhTB3UJbaNsFd0N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-23" value="Time series prep for Darts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-24" value="Linear Regression Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-25" value="forecast.csv" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="1141" y="280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I4Y9UBhTB3UJbaNsFd0N-24" target="I4Y9UBhTB3UJbaNsFd0N-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4Y9UBhTB3UJbaNsFd0N-31" value="Analysis/Visualisation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
