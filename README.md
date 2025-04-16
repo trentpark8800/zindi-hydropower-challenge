@@ -26,7 +26,7 @@ This solution focuses on simplicity, efficiency, and interpretability while main
 
 ## Architecture Diagram
 
-![image.png](attachment:image.png)
+![alt text](image.png)
 
 ## ETL Process
 
