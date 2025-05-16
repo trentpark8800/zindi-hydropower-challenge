@@ -10,7 +10,7 @@
 
 ## Overview and Objectives
 
-This notebook presents the final solution for the IBM SkillsBuild Hydropower Climate Optimisation Challenge. The task is to predict future energy load generation (in kWh) in the remote Kalam region of Pakistan using a combination of micro-hydropower plant (MHP) data and local climate data.
+This project presents my analysis, initial attempts and final solution for the IBM SkillsBuild Hydropower Climate Optimisation Challenge. The task was to predict future energy load generation (in kWh) in the remote Kalam region of Pakistan using a combination of micro-hydropower plant (MHP) data and local climate data.
 
 ### Purpose
 The aim of this solution is to enable accurate 31-day-ahead forecasting of daily power usage, which is crucial for optimizing energy distribution, reducing waste, and improving the resilience of off-grid communities reliant on hydropower.
@@ -22,7 +22,7 @@ The aim of this solution is to enable accurate 31-day-ahead forecasting of daily
 - Develop and evaluate a robust forecasting model using the Darts `LinearRegressionModel`, leveraging lagged features and covariates.
 - Document the entire ETL and modeling pipeline for transparency, reproducibility, and deployment readiness.
 
-This solution focuses on simplicity, efficiency, and interpretability while maintaining strong forecasting performance.
+This solution focuses on simplicity, efficiency, and interpretability while maintaining forecasting performance.
 
 ## Architecture Diagram
 
@@ -101,14 +101,3 @@ This chunk serves as the **sliding window** over which the model "looks back" to
 
 - **Notebook Execution Time**: ~54 seconds end-to-end on a machine with 32GB RAM and AMD Ryzen 7 CPU.
 - **Heavy Processing**: Primarily during the aggregation and feature engineering phase, mitigated by DuckDB.
-
----
-
-## Performance Metrics
-
-- **Model Metric**: RMSE was used during validation for each time series.
-- **Public Leaderboard Score**: *(insert your score here)*
-- **Private Leaderboard Score**: *(insert your score here)*
-- **Additional Observations**:
-  - Simpler models (e.g., linear regression with lagged features) offered competitive performance due to the high signal-to-noise ratio in temporal patterns.
-  - Complex models like deep learning were explored during experimentation but excluded from the final run due to compute constraints and marginal performance gains.
