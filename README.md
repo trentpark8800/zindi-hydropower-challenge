@@ -2,15 +2,31 @@
 
 # Original Setup
 
-* Python version 3.10.0 was used for the notebook interpreter
+* Python version 3.10.0 was used
 * Packages used: pandas, numpy, seaborn, scikit-learn, darts, matplotlib, optuna. For version locking the required packages can be found in `requirements.txt` and installed via `$ pip install -r ./requirements.txt`
 * Assumed setup is the the `final_submission.ipynb` is at the root level, while uncompressed data is contained in a folder called `./data/`
 
 # Solution Overview
 
+## Repo Structure
+
+- `data/` — Used for raw dataset files, which can be downloaded from [here](https://zindi.africa/competitions/ibm-skillsbuild-hydropower-climate-optimisation-challenge/data)
+- `initial_attempts/` — Early experiments and draft notebooks
+- `submissions/` — Stores final and intermediate submission files
+
+- `.gitignore` — Specifies files and folders to ignore in version control
+- `architecture_diagram.drawio` — Visual diagram of the project architecture
+- `data_preparation.ipynb` — Notebook for loading and preparing the .csv data into DuckDB
+- `feature_engineering.ipynb` — Feature extraction and transformation steps
+- `my_final_submission.ipynb` — Final model and submission notebook
+- `README.md` — This file! Overview and documentation of the project
+- `requirements.txt` — List of Python dependencies to install
+- `StarterNotebook.ipynb` — Baseline notebook provided by organizers
+- `winners_solution.ipynb` — Solution notebook from a competition winner
+
 ## Overview and Objectives
 
-This project presents my analysis, initial attempts and final solution for the IBM SkillsBuild Hydropower Climate Optimisation Challenge. The task was to predict future energy load generation (in kWh) in the remote Kalam region of Pakistan using a combination of micro-hydropower plant (MHP) data and local climate data.
+This project presents my analysis, initial attempts and final solution for the [IBM SkillsBuild Hydropower Climate Optimisation Challenge](https://zindi.africa/competitions/ibm-skillsbuild-hydropower-climate-optimisation-challenge). The task was to predict future energy load generation (in kWh) in the remote Kalam region of Pakistan using a combination of micro-hydropower plant (MHP) data and local climate data.
 
 ### Purpose
 The aim of this solution is to enable accurate 31-day-ahead forecasting of daily power usage, which is crucial for optimizing energy distribution, reducing waste, and improving the resilience of off-grid communities reliant on hydropower.
