@@ -20,9 +20,6 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm
 
 
-con = ddb.connect("../kalam_hydropower.db", read_only=True)
-
-
 def ensure_correct_date_range(df, min_date, max_date):
     full_date_range = pd.date_range(start=min_date, end=max_date, freq="D")
     df = df.reindex(full_date_range)
@@ -71,6 +68,8 @@ def forecast_for_source(source, selected_df, min_date, max_date, forecast_horizo
 
 
 def main():
+
+    con = ddb.connect("../kalam_hydropower.db", read_only=True)
 
     ss_df = con.sql("select * from raw.sample_submission").to_df()
     ss_df[["date", "source"]] = ss_df["ID"].str.split("_", n=1, expand=True)
@@ -126,10 +125,10 @@ def main():
     if len(id_difference) > 0:
         print("\nSubmission is incomplete!")
 
-    forecasts_df.sort_values(by=["source", "date"], inplace=True)
+    forecasts_df.sort_values(by=["ID"], inplace=True)
 
     # Save results
-    forecasts_df[["ID", "kwh"]].to_csv("./submissions/arima_forecast.csv", index=False)
+    forecasts_df[["ID", "kwh"]].to_csv("../submissions/arima_forecast.csv", index=False)
 
 
 if __name__ == "__main__":
